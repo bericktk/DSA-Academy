@@ -1,0 +1,14 @@
+#Crie um algoritimo para calcular a área de uma paralelogramo
+#Exiba uma mensagem de Boas vindas ao usuário;
+#Peça para que ele digite o valor da base;
+#Peça para que ele digite o valor da altura;
+#Realize o calculo da Área, A=b*h
+#Informe o valor ao usuário.
+
+print("Bem vindo a calculadora de Paralelogramo")
+
+base = float(input("Escreva o valor da base: "))
+altura = float(input("Escreva o valor da altura: "))
+
+area = base * altura
+print("O valor da Área é: ", area)
