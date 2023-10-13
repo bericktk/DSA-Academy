@@ -71,3 +71,23 @@ print(par)
 # Exercício 8 - Transforme o resultado desta função range em uma lista: range(5, 45, 2)
 num = range(5, 45, 2)
 print(list(num))
+
+# Exercício 9 - Faça a correção dos erros no código abaixo e execute o programa. Dica: são 3 erros.
+temperatura = float(input('Qual a temperatura? '))
+if temperatura >= 30:
+    print('Vista roupas leves.')
+else:
+    print('Busque seus casacos.')
+
+# Exercício 10 - Faça um programa que conte quantas vezes a letra "r" aparece na frase abaixo. Use um placeholder na 
+# sua instrução de impressão
+
+# “A gratidão é a virtude das almas nobres. O quão feliz é uma pessoa depende da profundidade de sua gratidão.” 
+
+frase = "A gratidão é a virtude das almas nobres. O quão feliz é uma pessoa depende da profundidade de sua gratidão."
+count = 0
+
+for caracter in frase:
+    if caracter == 'r':
+        count += 1
+print("O R aparece %s vezes na frase" %(count))
